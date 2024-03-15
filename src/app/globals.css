@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: 40;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -47,15 +47,58 @@ table {
 	border-spacing: 0;
 }
 
+/*CSS do Projeto */
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1.6rem;
+}
+
+html{
+	font-size: 62.5%;
+}
+
 h1 {
-  font-size: large;
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: medium;
+  font-size: 2.8rem;
 }
 
 h3 {
-  font-size: small;
+  font-size: 2rem;
+  font-weight: bold;
 }
+
+p {
+	font-size: 2rem;
+}
+
+label {
+	font-size: 1.6rem;
+}
+
+li{ 
+	margin: 1rem;
+
+}
+@media screen and (max-width: 7200px) {
+   hmtl {
+	font-size: 50%;
+   }
+}
+
+@media screen and 	(max-width: 540px) {
+	hmtl {
+	 font-size: 30%;
+	}
+ }
+
+
+	
+
+	
 

@@ -4,7 +4,7 @@ export default function Sobre () {
     return(
       <>
       <h1>Sobre</h1>
-      <p> Telas sobre meu projeto</p>
+      <p> Meus Projetos</p>
       <Link href={"/"}> Home </Link>
       </>
     );
